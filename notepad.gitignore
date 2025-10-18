@@ -1,0 +1,27 @@
+# Evita di caricare l'ambiente virtuale
+venv/
+
+# Cache di Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File temporanei o di backup
+*.tmp
+*.log
+*.bak
+*.swp
+~*
+
+# File di sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File generati automaticamente
+*.xlsx
+*.ods
+
+# Escludi eventuali test o notebook
+*.ipynb_checkpoints/
